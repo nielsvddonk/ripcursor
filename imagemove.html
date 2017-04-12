@@ -1,0 +1,243 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>RIP CURSOR</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<!-- <SCRIPT LANGUAGE="JavaScript" SRC="pointer.js"></SCRIPT> -->
+<SCRIPT LANGUAGE="JavaScript" SRC="javascript/JSFX_Layer.js"></SCRIPT>
+<SCRIPT LANGUAGE="JavaScript" SRC="javascript/JSFX_Mouse.js"></SCRIPT>
+<SCRIPT LANGUAGE="JavaScript" SRC="javascript/JSFX_ImageFlag.js"></SCRIPT>
+
+<div id="background">
+
+  <button id="buttonfly">RIP</button>
+  <button id="buttonfly1">RIP</button>
+  <button id="buttonfly2">RIP</button>
+  <button id="buttonfly3">RIP</button>
+  <button id="buttonfly4">RIP</button>
+  <button id="buttonfly5">RIP</button>
+  <button id="buttonfly6">RIP</button>
+  <button id="buttonfly7">RIP</button>
+  <button id="buttonfly8">RIP</button>
+  <button id="buttonfly9">RIP</button>
+  <button id="buttonfly10">RIP</button>
+  <button id="buttonfly11">RIP</button>
+  <button id="buttonfly12">RIP</button>
+  <button id="buttonfly13">RIP</button>
+  <button id="buttonfly14">RIP</button>
+  <button id="buttonfly15">RIP</button>
+  <button id="buttonfly16">RIP</button>
+  <button id="buttonfly17">RIP</button>
+  <button id="buttonfly18">RIP</button>
+  <button id="buttonfly19">RIP</button>
+  <button id="buttonfly20">RIP</button>
+
+<div id="menu">
+<!-- <script type="text/javascript" >
+  alert("hello");
+</script> -->
+<div id="text">
+<p>
+<script>
+var texts = ["CLICK", "SCROLL", "POINT", "ONE", "FINAL", "DANCE"];
+var count = 0;
+function changeText() {
+    $("#text").text(texts[count]);
+    count < 7 ? count++ : count = 0;
+}
+setInterval(changeText, 500);
+document.getElementById("text").style.color = "white";
+document.getElementById("text").style.fontSize = "100px";
+document.getElementById("text").style.fontFamily = "typeface";
+</script></p></div>
+
+<body onload="JSFX_StartEffects()" cursor: url('future.cur');">
+
+
+
+
+<h1>ONE FINAL DANCE</h1>
+<div id="edit"><br>
+<input type="range" min="-360" max="360" value="-360" oninput="rotate(this.value)" onchange="rotate(this.value)" />
+<script>
+function rotate(value) {
+  document.getElementById('text').style.webkitTransform="rotate(" + value + "deg)";
+  document.getElementById('text').style.msTransform="rotate(" + value + "deg)";
+  document.getElementById('text').style.MozTransform="rotate(" + value + "deg)";
+  document.getElementById('text').style.OTransform="rotate(" + value + "deg)";
+  document.getElementById('text').style.transform="rotate(" + value + "deg)";
+  document.getElementById('text').innerHTML=value + "deg";
+}</script>
+
+<button id="buttonrain">Rain On/Off</button>
+<button id="buttontext">Text On/Off</button>
+<button id="buttoncursor">Cursor On/Off</button>
+<button id="buttonmouse">Buttons On/Off</button>
+<button type="button" id="btn">Desktop</button>
+
+<script>
+$("#buttoncursor").click(function() {
+    $("#cursormove").toggle();
+});</script>
+<script>
+$("#buttonrain").click(function() {
+    $("#rain").toggle();
+});</script>
+
+<script>
+$("#buttonmouse").click(function() {
+    $("#buttonfly").toggle();
+    $("#buttonfly1").toggle();
+    $("#buttonfly2").toggle();
+    $("#buttonfly3").toggle();
+    $("#buttonfly4").toggle();
+    $("#buttonfly5").toggle();
+    $("#buttonfly6").toggle();
+    $("#buttonfly7").toggle();
+    $("#buttonfly8").toggle();
+    $("#buttonfly9").toggle();
+    $("#buttonfly10").toggle();
+    $("#buttonfly11").toggle();
+    $("#buttonfly12").toggle();
+    $("#buttonfly13").toggle();
+    $("#buttonfly14").toggle();
+    $("#buttonfly15").toggle();
+    $("#buttonfly16").toggle();
+    $("#buttonfly17").toggle();
+    $("#buttonfly18").toggle();
+    $("#buttonfly19").toggle();
+    $("#buttonfly20").toggle();
+});</script>
+
+<div id="rain">
+<script type="text/javascript" SRC="himagefall/picture-fall.js">
+         </script>
+<script>
+$("#buttontext").click(function() {
+    $("#text").toggle();
+});</script>
+<div id="cursormove">
+<SCRIPT LANGUAGE="JavaScript">
+function JSFX_StartEffects()
+{
+	JSFX.MakeImageFlag("future.cur", 70,70);
+}
+</SCRIPT></div>
+</div>
+ </div>
+
+</div>
+
+<div id="menu2">
+<img src="future.cur" onclick="window.location='imagemove.html';">
+<img src="linkselect.cur" onclick="window.location='imagemove2.html';">
+<img src="rednormal.cur" onclick="window.location='imagemove3.html';">
+<img src="wedge.cur" onclick="window.location='imagemove4.html';">
+<img src="kh.cur" onclick="window.location='imagemove5.html';">
+<img src="swordviolet.cur" onclick="window.location='imagemove6.html';">
+<img src="bluesword.cur" onclick="window.location='imagemove7.html';">
+<img src="usflag.cur" onclick="window.location='imagemove8.html';">
+<img src="cheese.cur" onclick="window.location='imagemove9.html';">
+<img src="cross.cur" onclick="window.location='imagemove10.html';">
+<img src="future.cur" onclick="window.location='imagemove.html';">
+<img src="linkselect.cur" onclick="window.location='imagemove2.html';">
+<img src="rednormal.cur" onclick="window.location='imagemove3.html';">
+<img src="wedge.cur" onclick="window.location='imagemove4.html';">
+<img src="kh.cur" onclick="window.location='imagemove5.html';">
+<img src="swordviolet.cur" onclick="window.location='imagemove6.html';">
+<img src="bluesword.cur" onclick="window.location='imagemove7.html';">
+<img src="usflag.cur" onclick="window.location='imagemove8.html';">
+<img src="cheese.cur" onclick="window.location='imagemove9.html';">
+<img src="cross.cur" onclick="window.location='imagemove10.html';">
+<img src="future.cur" onclick="window.location='imagemove.html';">
+<img src="linkselect.cur" onclick="window.location='imagemove2.html';">
+<img src="rednormal.cur" onclick="window.location='imagemove3.html';">
+<img src="wedge.cur" onclick="window.location='imagemove4.html';">
+<img src="kh.cur" onclick="window.location='imagemove5.html';">
+<img src="swordviolet.cur" onclick="window.location='imagemove6.html';">
+<img src="bluesword.cur" onclick="window.location='imagemove7.html';">
+<img src="usflag.cur" onclick="window.location='imagemove8.html';">
+<img src="cheese.cur" onclick="window.location='imagemove9.html';">
+<img src="cross.cur" onclick="window.location='imagemove10.html';">
+<!-- <h1>NEVER FORGET</h1> -->
+</div>
+<div class='a'>
+	<img src="mouses/1.png">
+
+</div>
+<!--FLYING BUTTONS-->
+<script language="javascript">
+$(document).ready(function() {
+    animateDiv($('#buttonfly'));
+        animateDiv($('#buttonfly1'));
+        animateDiv($('#buttonfly2'));
+        animateDiv($('#buttonfly3'));
+        animateDiv($('#buttonfly4'));
+        animateDiv($('#buttonfly5'));
+        animateDiv($('#buttonfly6'));
+        animateDiv($('#buttonfly7'));
+        animateDiv($('#buttonfly8'));
+        animateDiv($('#buttonfly9'));
+        animateDiv($('#buttonfly10'));
+        animateDiv($('#buttonfly11'));
+        animateDiv($('#buttonfly12'));
+        animateDiv($('#buttonfly13'));
+        animateDiv($('#buttonfly14'));
+        animateDiv($('#buttonfly15'));
+        animateDiv($('#buttonfly16'));
+        animateDiv($('#buttonfly17'));
+        animateDiv($('#buttonfly18'));
+        animateDiv($('#buttonfly19'));
+        animateDiv($('#buttonfly20'));
+
+});
+
+function makeNewPosition($container) {
+
+    // Get viewport dimensions (remove the dimension of the div)
+    var h = $container.height() - 600;
+    var w = $container.width() - 600;
+
+    var nh = Math.floor(Math.random() * h);
+    var nw = Math.floor(Math.random() * w);
+
+    return [nh, nw];
+
+}
+
+function animateDiv($target) {
+    var newq = makeNewPosition($target.parent());
+    var oldq = $target.offset();
+    var speed = calcSpeed([oldq.top, oldq.left], newq);
+
+    $target.animate({
+        top: newq[0],
+        left: newq[1]
+    }, speed, function() {
+        animateDiv($target);
+    });
+
+};
+
+function calcSpeed(prev, next) {
+
+    var x = Math.abs(prev[1] - next[1]);
+    var y = Math.abs(prev[0] - next[0]);
+
+    var greatest = x > y ? x : y;
+
+    var speedModifier = 0.04;
+
+    var speed = Math.ceil(greatest / speedModifier);
+
+    return speed;
+
+}
+</script>
+
+
+
+</body>
+
+</html>
